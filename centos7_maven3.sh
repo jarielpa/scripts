@@ -1,13 +1,11 @@
 #
-# Centos Fedora Equip 
-#  Maven 3 Equip
+# Centos
+#  Maven 
 # Licence: MIT
-# to run: wget --no-check-certificate https://gist.githubusercontent.com/petergdoyle/42a988fbb07ad0e7ca99/raw/e316473c97aee9fd44fc25d8765d1fef6b7148cf/equip_centos7_maven3_64.sh && bash equip_centos7_maven3_64.sh
-
 
 if [ -d "/usr/maven/default/" ]; then
 	echo "There's already an installation of Maven 3 in /usr/maven/default/"
-	rm -f centos7_maven3.shx
+	rm -f centos7_maven3.sh
 	echo "Skipping..."
 	exit 0
 fi
