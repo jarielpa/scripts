@@ -9,7 +9,7 @@ if [ -d "/opt/apiman-1.2.6.Final" ]; then
 	exit 0
 fi
 
-sudo mkdir /opt/apiman-1.2.6.Final
+mkdir /opt/apiman-1.2.6.Final
 cd /opt/apiman-1.2.6.Final
 curl http://download.jboss.org/wildfly/10.0.0.Final/wildfly-10.0.0.Final.zip -o wildfly-10.0.0.Final.zip
 curl http://downloads.jboss.org/apiman/1.2.6.Final/apiman-distro-wildfly10-1.2.6.Final-overlay.zip -o apiman-distro-wildfly10-1.2.6.Final-overlay.zip
